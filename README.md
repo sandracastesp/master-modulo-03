@@ -1,2 +1,4 @@
 # master-modulo-03
-Repositorio que contiene las prácticas y ejercicios realizados durante el módulo 03 del curso Master en Frontend. 
+Repositorio que contiene carpetas en las que se almacenan prácticas y ejercicios realizados durante el módulo 03 del curso Master en Frontend. 
+
+Clase 1: Para realizar el proyecto de esta clase se asignó el archivo "tipos-de-dato.js". En primer lugar, se declara, asigna e imprime "Hola Mundo", luego se declaran y asignan datos primitivos de JavaScript: numérico, string, booleano, BigInit, nulo, undefined y symbol y luego se imprime el tipo de valor y el valor designado. Finalmente se realizaron las misma acciones con datos de referencia: objeto, array y función. Se agregaron comentarios que serán de apoyo para señalar y recordar la finalidad de los datos en JavaScript.
