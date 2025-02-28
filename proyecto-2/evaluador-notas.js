@@ -1,7 +1,7 @@
 let nota = Math.floor(Math.random() * 101);
 
 if (nota >= 0) {
-console.log(`La calificación del estudiante es: ${nota}`);
+console.log("La calificación del estudiante es:", nota);
 
 if (nota >= 90) {
   console.log("Excelente");
