@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+ 
+*{
+    font-family: "Poppins";
+}
+
+body {
+    margin: 30px;
+    font-size: 0.9rem;
+    box-sizing: border-box;
+    color: black;
+}
+
+h1 {
+    font-size: 1.5rem;
+    color: #1f94e2;;
+}
+
+h2 {
+    font-size: 1rem;
+}
+
+.comment-box{
+    max-width: 700px;
+}
+
+.write-comments {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+#comentario {
+    border-radius: 8px;
+    background-color: #bdd1df;
+    width: 50vw;
+    height: 10vw;
+}
+
+button { 
+    border: none; 
+    background-color: #1f94e2;
+    border-radius: 10px; 
+    color: #ffffff;
+    font-size: 0.8rem;
+    width: 200px;
+    height: 35px;
+    margin-top: 10px;
+  }
+  
+  
+  button:hover{
+    color: white; 
+    cursor: default;
+    background-color: #1872ad;
+    transition: all .3s ease-out;
+    cursor:pointer;
+}
+
+#commentspublic {
+    background-color: #fff3ad;
+    border-radius: 15px;
+    width: 80vw;
+    display: flex;
+}
+
+strong {
+    color: #011733;
+}
+
+.boton-borrar { 
+    border: none; 
+    background-color: #c2538783;
+    border-radius: 10px; 
+    color: #aa0000;
+    font-size: 0.8rem;
+    width: 150px;
+    height: 35px;
+    margin-top: 10px;
+}
+  
+  
+.boton-borrar:hover{
+      color: white; 
+      cursor: default;
+      background-color: #570000;
+      transition: all .3s ease-out;
+      cursor:pointer;
+}
+
+  

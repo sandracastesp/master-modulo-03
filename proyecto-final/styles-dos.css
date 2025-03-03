@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+body {
+    background-color: #f1ceff;
+    font-family: "Quicksand", sans-serif;
+    color: #211b24;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 3rem;
+    color: #270b46;
+}
+
+.image-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(30rem, 1fr));
+    grid-auto-rows: 22.75rem;
+    gap: 1.5rem;
+    margin: 20px 65px 50px 65px;
+
+}
+
+.graphic-content {
+    background-image: url(./imagenes/imagen-uno.jpg);
+    background-repeat: no-repeat;
+    background-position: 60% 40%;
+    border-radius: 10px;
+}
+
+.illustrations-content {
+    background-image: url(./imagenes/imagen-dos.jpg);
+    background-repeat: no-repeat;
+    background-position: 85% 10%;
+    border-radius: 10px;
+}
+
+.comment-box{
+    display: flex;
+    flex-direction: column;
+    background-color: #270b46;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0 4px rgba(85, 82, 73, 0.829);
+    margin: 20px 65px 50px 65px;
+}
+
+.write-comments {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.text{
+    align-items: center;
+}
+
+#comentario {
+    background-color: #fdf7d9;
+    border-radius: 8px;
+    width: 50vw;
+    height: 10vw;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.comentario {
+    background-color: #f59ce0f6;
+    border-radius: 8px;
+    height: 10vw;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.comments-public {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align:center;
+}
+
+h2, h3{
+    color: #efd9f8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p {
+    margin:0px;
+}
+
+#texto-titulo {
+    color: #f1ceff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button { 
+    border: none; 
+    background-color: #ffffff;
+    border-radius: 10px; 
+    color: #661596;
+    font-size: 0.8rem;
+    width: 200px;
+    height: 35px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+  
+  
+  button:hover{
+    color: white; 
+    cursor: default;
+    background-color: #aa64d8;
+    transition: all 2.s ease-out;
+    cursor:pointer;
+  }
